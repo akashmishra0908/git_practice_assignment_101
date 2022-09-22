@@ -1,11 +1,11 @@
-function prime_number(N){
-let count=0;
-for(i=0;i<=N;i++){
-if(N%i==0){
-count++;
+function prime_number(number){
+let factor=0;
+for(i=0;i<=number;i++){
+if(number%i==0){
+factor++;
 }
 }
-if(count==2){
+if(factor==2){
 return true;
 }
 return false;
